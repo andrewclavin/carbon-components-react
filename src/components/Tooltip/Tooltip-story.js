@@ -158,8 +158,7 @@ storiesOf('Tooltip', module)
           triggerText="Tooltip - no icon - left"
           direction="left"
           showIcon={false}>
-          >
-          <p className="bx--tooltip__label">Tooltip subtitle</p>
+          ><p className="bx--tooltip__label">Tooltip subtitle</p>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim

@@ -351,24 +351,24 @@ export default class DatePicker extends Component {
     this.inputField = !node
       ? null
       : // Child is a regular DOM node, seen in tests
-        node.nodeType === Node.ELEMENT_NODE
-        ? node.querySelector('.bx--date-picker__input')
-        : // Child is a React component
-          node.input && node.input.nodeType === Node.ELEMENT_NODE
-          ? node.input
-          : null;
+      node.nodeType === Node.ELEMENT_NODE
+      ? node.querySelector('.bx--date-picker__input')
+      : // Child is a React component
+      node.input && node.input.nodeType === Node.ELEMENT_NODE
+      ? node.input
+      : null;
   };
 
   assignToInputFieldRef = node => {
     this.toInputField = !node
       ? null
       : // Child is a regular DOM node, seen in tests
-        node.nodeType === Node.ELEMENT_NODE
-        ? node.querySelector('.bx--date-picker__input')
-        : // Child is a React component
-          node.input && node.input.nodeType === Node.ELEMENT_NODE
-          ? node.input
-          : null;
+      node.nodeType === Node.ELEMENT_NODE
+      ? node.querySelector('.bx--date-picker__input')
+      : // Child is a React component
+      node.input && node.input.nodeType === Node.ELEMENT_NODE
+      ? node.input
+      : null;
   };
 
   render() {
